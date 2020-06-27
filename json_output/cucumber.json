@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "user login with vaild credentials",
+        "description": "",
+        "id": "facebook-login-feature;user-login-with-vaild-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42529668700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomepageStepefenetion.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151248100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate title",
+            "match": {
+              "location": "HomepageStepefenetion.validate_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8111804900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters useremail and password",
+            "match": {
+              "location": "HomepageStepefenetion.user_enters_useremail_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1737300,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.qa.stepdefenitions.HomepageStepefenetion.user_verify_logged_in_user(HomepageStepefenetion.java:43)\r\n\tat ✽.Then user verify logged in user(C:/Users/sudheer.indlamudi/eclipse-workspace-new/CucumberWithPOM/src/main/java/com/qa/features/facebooklogin.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user verify logged in user",
+            "match": {
+              "location": "HomepageStepefenetion.user_verify_logged_in_user()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login feature",
+    "description": "",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/sudheer.indlamudi/eclipse-workspace-new/CucumberWithPOM/src/main/java/com/qa/features/facebooklogin.feature"
+  }
+]

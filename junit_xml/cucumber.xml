@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.794459">
+<testcase classname="Facebook Login feature" name="user login with vaild credentials" time="50.794459">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.qa.stepdefenitions.HomepageStepefenetion.user_verify_logged_in_user(HomepageStepefenetion.java:43)&#13;&#10;&#9;at ✽.Then user verify logged in user(C:/Users/sudheer.indlamudi/eclipse-workspace-new/CucumberWithPOM/src/main/java/com/qa/features/facebooklogin.feature:9)&#13;&#10;"><![CDATA[When user is on login page..................................................passed
+Then validate title.........................................................passed
+Then user enters useremail and password.....................................passed
+Then user verify logged in user.............................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.stepdefenitions.HomepageStepefenetion.user_verify_logged_in_user(HomepageStepefenetion.java:43)
+	at ✽.Then user verify logged in user(C:/Users/sudheer.indlamudi/eclipse-workspace-new/CucumberWithPOM/src/main/java/com/qa/features/facebooklogin.feature:9)
+]]></failure>
+</testcase>
+</testsuite>
